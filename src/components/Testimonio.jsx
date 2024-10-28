@@ -57,7 +57,7 @@ function Testimonio({ persona }) {
                 ) : (
                     <MyFavouriteBorder onClick={toggleLike} iconColor="grey" />
                 )}
-                <MyButton text="Pulsar" onClick={handleButtonClick} txtColor="white" bgColor="blue" />
+                <MyButton text="¿Quién?" onClick={handleButtonClick} txtColor="white" bgColor="blue" />
                 <TahicheHA  iconColor="blue" disabled={false} onClick={() => alert("Has compartido este perfil")}/>
             </CardActions>
         </CustomCard>
